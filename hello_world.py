@@ -1,6 +1,10 @@
-def print_hello():
-    print("Hello world!")
+def add(x, y):
+    a = x + y
+    return a
+
+def print_KIT():
+    print("kit")
 
 if __name__ == '__main__':
-    print_hello()
-print("수정")
+    print_KIT()
+    print(add(1, 2))
